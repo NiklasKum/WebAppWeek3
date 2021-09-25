@@ -1,0 +1,58 @@
+body {
+  font-family: sans-serif;
+}
+
+#generate-button {
+  width: 97.5%;
+  margin-left: 1.25%;
+  border-color: white;
+  box-shadow: 10px 5px 5px rgb(173, 173, 173);
+  border-radius: 9px;
+}
+
+.wiki-header {
+  background-color: gainsboro;
+  font-size: 30px;
+  padding: 5px 0 5px 5px;
+  color: rgb(64, 64, 64);
+}
+
+.wiki-item {
+  background-color: ghostwhite;
+  padding: 1em 1em 1em 1em;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  box-shadow: 10px 5px 5px rgb(173, 173, 173);
+}
+
+.wiki-img {
+  max-width: 100%;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+@media (min-width: 600) {
+  .wiki-content {
+    display: flex;
+    flex-flow: row-reverse;
+  }
+
+  .wiki-text {
+    max-width: 50%;
+    min-width: 50%;
+  }
+
+  .wiki-img {
+    max-width: 50%;
+    min-width: 50%;
+  }
+
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+}
